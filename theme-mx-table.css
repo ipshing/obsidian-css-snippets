@@ -1,0 +1,20 @@
+/**
+ * A basic theme for tables rendered with the Markdown Extended
+ * plugin that adjusts with the selected accent color.
+ */
+.theme-light table.mx-table {
+    --table-background: var(--color-base-05);
+    --table-border-color: var(--color-base-35);
+    --table-header-border-color: rgba(from var(--color-accent) r g b / 0.9);
+    --table-header-background: rgba(from var(--color-accent) r g b / 0.28);
+    --table-row-alt-background: rgba(from var(--color-accent) r g b / 0.1);
+    --table-row-background-hover: rgba(from var(--color-accent) r g b / 0.15);
+}
+.theme-dark table.mx-table {
+    --table-background: var(--color-base-20);
+    --table-border-color: var(--color-base-35);
+    --table-header-border-color: rgba(from var(--color-accent) r g b / 0.6);
+    --table-header-background: rgba(from var(--color-accent) r g b / 0.4);
+    --table-row-alt-background: rgba(from var(--color-accent) r g b / 0.2);
+    --table-row-background-hover: rgba(from var(--color-accent) r g b / 0.25);
+}
