@@ -1,0 +1,11 @@
+/**
+ * Custom style overrides for the Dataview plugin
+ */
+
+.dataview.inline-field-standalone-value {
+    padding-left: unset;
+    padding-right: unset;
+    font-family: var(--font-text);
+    background-color: unset;
+    color: var(--text-normal);
+}
