@@ -1,0 +1,8 @@
+/**
+ * Custom style overrides for the Event Timers plugin
+ */
+
+.event-timers-view {
+    --font-ui-medium: 0.88888888em;
+    --input-height: 40px;
+}
